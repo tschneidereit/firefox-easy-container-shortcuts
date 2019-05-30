@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
   "name": "Easy Container Shortcuts",
-  "version": "1.3",
+  "version": "1.3.1",
   "description": "Easy, opinionated, keyboard shortcuts for containers.",
   "applications": {
     "gecko": {
-      "id": "firefox.container-shortcuts@strategery.io"
+      "id": "firefox.container-shortcuts@tillschneidereit.net"
     }
   },
   "icons": {
@@ -22,70 +22,71 @@
   "commands": {
     "ecs-new-tab-current-container": {
       "suggested_key": {
-        "default": "Ctrl+Alt+T"
+        "default": "Ctrl+Alt+T",
+        "mac": "MacCtrl+T"
       },
       "description": "Open a new tab on the current container"
     },
     "ecs-new-tab-container-1": {
       "suggested_key": {
         "default": "Ctrl+Shift+1",
-        "mac": "Alt+Shift+1"
+        "mac": "MacCtrl+1"
       },
       "description": "Open a tab on the first non-default container"
     },
     "ecs-new-tab-container-2": {
       "suggested_key": {
         "default": "Ctrl+Shift+2",
-        "mac": "Alt+Shift+2"
+        "mac": "MacCtrl+2"
       },
       "description": "Open a tab on the second non-default container"
     },
     "ecs-new-tab-container-3": {
       "suggested_key": {
         "default": "Ctrl+Shift+3",
-        "mac": "Alt+Shift+3"
+        "mac": "MacCtrl+3"
       },
       "description": "Open a tab on the third non-default container"
     },
     "ecs-new-tab-container-4": {
       "suggested_key": {
         "default": "Ctrl+Shift+4",
-        "mac": "Alt+Shift+4"
+        "mac": "MacCtrl+4"
       },
       "description": "Open a tab on the fourth non-default container"
     },
     "ecs-new-tab-container-5": {
       "suggested_key": {
         "default": "Ctrl+Shift+5",
-        "mac": "Alt+Shift+5"
+        "mac": "MacCtrl+5"
       },
       "description": "Open a tab on the fifth non-default container"
     },
     "ecs-new-tab-container-6": {
       "suggested_key": {
         "default": "Ctrl+Shift+6",
-        "mac": "Alt+Shift+6"
+        "mac": "MacCtrl+6"
       },
       "description": "Open a tab on the sixth non-default container"
     },
     "ecs-new-tab-container-7": {
       "suggested_key": {
         "default": "Ctrl+Shift+7",
-        "mac": "Alt+Shift+7"
+        "mac": "MacCtrl+7"
       },
       "description": "Open a tab on the seventh non-default container"
     },
     "ecs-new-tab-container-8": {
       "suggested_key": {
         "default": "Ctrl+Shift+8",
-        "mac": "Alt+Shift+8"
+        "mac": "MacCtrl+8"
       },
       "description": "Open a tab on the eighth non-default container"
     },
     "ecs-new-tab-container-9": {
       "suggested_key": {
         "default": "Ctrl+Shift+9",
-        "mac": "Alt+Shift+9"
+        "mac": "MacCtrl+9"
       },
       "description": "Open a tab on the nineth non-default container"
     }
